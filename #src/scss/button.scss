@@ -1,0 +1,19 @@
+button {
+  transition: 0.2s ease-in-out;
+  background: #070707;
+  width: 180px;
+  height: 42px;
+  font-family: Gilroy-Bold, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  border: 1px solid #070707;
+  border-radius: 32px;
+  &:hover {
+    transition: 0.2s ease-in-out;
+    background: initial;
+    color: #070707;
+  }
+}
